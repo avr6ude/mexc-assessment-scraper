@@ -5,5 +5,11 @@
   "license": "MIT",
   "scripts": {
     "start": "npx ts-node scraper.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "@types/puppeteer": "^7.0.4",
+    "puppeteer": "^22.13.0",
+    "typescript": "^5.5.3"
   }
 }
